@@ -1,0 +1,5 @@
+Solution: Use a HashSet, which maintains only the unique items from the data. Copy the array elements,
+so the hashset will store each element once. Two options for solving this:
+1. I made the hashset from the array values, and if they had the same length, that meant that they had no duplicates. Otherwise, it did.
+2. Loop through the array and try to add the elements to the hashset. If it is already containing the element that you are trying to add, return true. Otherwise, 
+return false when you are done looping. 
